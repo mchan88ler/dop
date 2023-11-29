@@ -697,7 +697,7 @@ p {
 }
 .btn.style2{
     margin-top:20px;
-    
+    border:solid 1px black;
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
@@ -712,10 +712,11 @@ p {
 .btn.style2:hover{
     background-image: linear-gradient(45deg, #ffd700, #e5ac00, #ffd700);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
 }
 
 .btn.style2:active{
-    transform: scale(0.95);
+    padding: 15px 25px
 }
 .section10 .container{
     width: 90%;
@@ -1228,7 +1229,10 @@ p {
         display: flex;
         flex-direction: column;
     }
-    
+    .section3 h2 {
+        font-size: 30px !important;
+        line-height: 55px !important;
+    }
     .section3 .bg {
         width: 100%;
         height: auto;
@@ -1267,14 +1271,20 @@ p {
     .section4 {
         width: 100%;
         height: auto;
-        padding: 0 10%;
+        padding: 50px 10%;
+        
     }
     
     .section4 h2 {
         text-align: center;
         line-height: 10vw;
+
+
     }
-    
+     .section4 h2 > span{
+        font-size:20px;
+     }
+
     .section4 .gap {
         margin-bottom: 10vw;
     }
@@ -1307,6 +1317,8 @@ p {
     
     .section4 .architecture .arc1 p {
         text-align: center;
+        font-size:15px;
+        line-height: 24px;
     }
     .section4:hover{
         background-color:rgba(0,0,0,0.5);
@@ -1458,7 +1470,8 @@ p {
     }
 
     .section10 .container p {
-        font-size: 2.5vw;
+        font-size:15px;
+        line-height:24px;
         margin-bottom: 2vw;
     }
     
@@ -1476,6 +1489,13 @@ p {
         left: 105%;
         top: 65%;
         z-index: -1;
+    }
+
+    .section10 h2 {
+        font-size:20px;
+    }
+    p.section10 {
+        font-size:20px;
     }
     
     /* ---------------------footer----------
@@ -1533,7 +1553,10 @@ p {
         flex-direction: column;
         justify-content: center;
     }
-
+    .footer img{
+        width:20% !important;
+        margin:30px auto !important;
+    }
     .footer .right .f1,.f2,.f3 {
         width: 100%;
         display: flex;
